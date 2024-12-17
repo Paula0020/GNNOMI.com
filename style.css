@@ -159,6 +159,9 @@ nav a:hover {
     .image-container {
     display: grid; /* Activa Grid */
     grid-template-columns: repeat(1, 1fr); /* Crea 3 columnas de igual tamaño */
+    gap: 20px; /* Espacio entre las imágenes */
+    padding: 20px; /* Espaciado alrededor del contenedor */
+}
 }
 }
 
