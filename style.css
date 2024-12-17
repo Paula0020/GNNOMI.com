@@ -147,6 +147,7 @@ nav a:hover {
 }
 
 @media (max-width: 600px) {
+    
     .nav-container {
         flex-direction: column; /* Cambia a una columna en pantallas pequeñas */
         align-items: flex-start; /* Alinea los elementos a la izquierda */
@@ -155,6 +156,10 @@ nav a:hover {
     nav .logo {
         margin-bottom: 10px; /* Espacio entre el logo y los enlaces */
     }
+    .image-container {
+    display: grid; /* Activa Grid */
+    grid-template-columns: repeat(1, 1fr); /* Crea 3 columnas de igual tamaño */
+}
 }
 
 
