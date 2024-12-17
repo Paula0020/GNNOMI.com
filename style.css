@@ -54,16 +54,6 @@ nav .logo{
     margin: 0 20px;
 }
 
-@media (max-width: 600px) {
-    .nav-container {
-        flex-direction: column; /* Cambia a una columna en pantallas pequeñas */
-        align-items: flex-start; /* Alinea los elementos a la izquierda */
-    }
-
-    nav .logo {
-        margin-bottom: 10px; /* Espacio entre el logo y los enlaces */
-    }
-}
 h2{
     color: white;
     font-size: 5rem;
@@ -156,6 +146,15 @@ nav a:hover {
     transform: rotateY(180deg);
 }
 
+@media (max-width: 600px) {
+    .nav-container {
+        flex-direction: column; /* Cambia a una columna en pantallas pequeñas */
+        align-items: flex-start; /* Alinea los elementos a la izquierda */
+    }
 
+    nav .logo {
+        margin-bottom: 10px; /* Espacio entre el logo y los enlaces */
+    }
+}
 
 
