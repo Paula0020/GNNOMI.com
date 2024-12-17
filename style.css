@@ -166,6 +166,10 @@ nav a:hover {
     gap: 20px; /* Espacio entre las imágenes */
     padding: 20px; /* Espaciado alrededor del contenedor */
     }
+    .flip-container{
+        width: 100%; /* Ajusta según sea necesario */
+        height: 100%; /* Ajusta según sea necesario */
+    }
 }
 
 
