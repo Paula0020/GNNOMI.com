@@ -156,6 +156,10 @@ nav a:hover {
     nav .logo {
         margin-bottom: 10px; /* Espacio entre el logo y los enlaces */
     }
+    img {
+    max-width: 100%; /* Asegúrate de que las imágenes no excedan el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de las imágenes */
+}
     .image-container {
     display: grid; /* Activa Grid */
     grid-template-columns: repeat(1, 1fr); /* Crea 3 columnas de igual tamaño */
