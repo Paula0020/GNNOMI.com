@@ -33,6 +33,18 @@
     display: block;
     margin: 0 auto;
 }
+
+@media (max-width: 600px) {
+    .nav-container {
+        flex-direction: column; /* Cambia a una columna en pantallas pequeñas */
+        align-items: flex-start; /* Alinea los elementos a la izquierda */
+    }
+
+    nav .logo {
+        margin-bottom: 10px; /* Espacio entre el logo y los enlaces */
+    }
+}
+
 .nav-container{
     display: flex;
     justify-content: space-between;
