@@ -6,7 +6,7 @@ body {
 
 header {
     color: white; /* Color del texto */
-    text-align: left; /* Centrar texto */
+    text-align: center; /* Centrar texto */
     padding: 10px 0; /* Espaciado interno */
 }
 
@@ -14,14 +14,19 @@ header {
     max-width: 25%; /* Asegura que la imagen no exceda el ancho del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
     display: block; /* Asegura que la imagen esté en su propia línea */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
 h1{
-    font-size: 70px; /* Tamaño de la fuente */
+    font-size: 50px; /* Tamaño de la fuente */
     font-family: "Poppins",sans-serif;
     color: #900C3F; /* Color del texto */
     text-align: left; /* Alinear el texto al centro */
     font-weight: 500; /* Hacer el texto en negrita */
     margin: 20px 50px; /* Espaciado superior e inferior */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra del texto */
+}
+
+.pagename {
+    text-align: center;
 }
