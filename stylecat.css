@@ -11,7 +11,7 @@ header {
 }
 
 .headerlogo {
-    max-width: 35%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    max-width: 25%; /* Asegura que la imagen no exceda el ancho del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
     display: block; /* Asegura que la imagen esté en su propia línea */
 }
