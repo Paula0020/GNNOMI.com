@@ -20,9 +20,9 @@ header {
 h1{
     font-size: 50px; /* Tamaño de la fuente */
     font-family: "Poppins",sans-serif;
-    color: #900C3F; /* Color del texto */
+    color: Balck; /* Color del texto */
     text-align: left; /* Alinear el texto al centro */
-    font-weight: 500; /* Hacer el texto en negrita */
+    font-weight: bold; /* Hacer el texto en negrita */
     margin: 20px 50px; /* Espaciado superior e inferior */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra del texto */
 }
@@ -37,10 +37,30 @@ h1{
     gap: 20px; /* Espacio entre las imágenes */
     padding: 20px; /* Espaciado alrededor del contenedor */
 }
-
-.image {
-    width: 100%; /* Las imágenes ocuparán el 100% del ancho de la celda */
-    height: auto; /* Mantiene la proporción de las imágenes */
+.image-box {
+    width: 100%; /* Asegura que la caja ocupe el 100% del ancho de la celda */
+    height: 250px; /* Altura fija para todas las cajas */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
     border-radius: 10px; /* Bordes redondeados (opcional) */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra (opcional) */
+    display: flex; /* Usar flexbox para organizar el contenido */
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: flex-start; /* Usar flexbox para organizar el contenido */; /* Alinea los elementos al inicio */
+}
+
+.image {
+    align-content: center;
+    width: 70%; /* Las imágenes ocuparán el 100% del ancho de la celda */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    max-height: 100%; /* Asegura que la imagen no exceda la altura de la caja */
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra (opcional) */
+    margin: 20px;
+}
+
+.image-caption {
+    margin-top: 10px; /* Espacio entre la imagen y el texto */
+    text-align: center; /* Centrar el texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #333; /* Color del texto */
 }
