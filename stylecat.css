@@ -11,13 +11,13 @@ header {
 }
 
 .headerlogo {
-    max-width: 10%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    max-width: 20%; /* Asegura que la imagen no exceda el ancho del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
     display: block; /* Asegura que la imagen esté en su propia línea */
 }
 
 h1{
-    font-size: 90px; /* Tamaño de la fuente */
+    font-size: 80px; /* Tamaño de la fuente */
     font-family: "Poppins",sans-serif;
     color: #900C3F; /* Color del texto */
     text-align: left; /* Alinear el texto al centro */
