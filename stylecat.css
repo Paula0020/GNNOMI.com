@@ -33,7 +33,7 @@ h1{
 
 .catalog_cont {
     display: grid; /* Activa Grid */
-    grid-template-columns: repeat(3, 2fr); /* Crea 3 columnas de igual tamaño */
+    grid-template-columns: repeat(4, 2fr); /* Crea 3 columnas de igual tamaño */
     gap: 20px; /* Espacio entre las imágenes */
     padding: 20px; /* Espaciado alrededor del contenedor */
 }
