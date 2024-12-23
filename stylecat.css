@@ -30,3 +30,17 @@ h1{
 .pagename {
     text-align: center;
 }
+
+.catalog_cont {
+    display: grid; /* Activa Grid */
+    grid-template-columns: repeat(3, 2fr); /* Crea 3 columnas de igual tamaño */
+    gap: 20px; /* Espacio entre las imágenes */
+    padding: 20px; /* Espaciado alrededor del contenedor */
+}
+
+.image {
+    width: 100%; /* Las imágenes ocuparán el 100% del ancho de la celda */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra (opcional) */
+}
