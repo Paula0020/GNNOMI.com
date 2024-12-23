@@ -45,16 +45,15 @@ h1{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra (opcional) */
     display: flex; /* Usar flexbox para organizar el contenido */
     flex-direction: column; /* Organiza los elementos en columna */
-    justify-content: flex-start; /* Usar flexbox para organizar el contenido */; /* Alinea los elementos al inicio */
+    justify-content: space-between; /* Usar flexbox para organizar el contenido */; /* Alinea los elementos al inicio */
 }
 
 .image {
-    align-content: center;
+    align-self: center;
     width: 70%; /* Las imágenes ocuparán el 100% del ancho de la celda */
-    height: auto; /* Mantiene la proporción de las imágenes */
+    height: 50%; /* Mantiene la proporción de las imágenes */
     max-height: 100%; /* Asegura que la imagen no exceda la altura de la caja */
     border-radius: 10px; /* Bordes redondeados (opcional) */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra (opcional) */
     margin: 20px;
 }
 
@@ -63,4 +62,12 @@ h1{
     text-align: center; /* Centrar el texto */
     font-size: 16px; /* Tamaño de la fuente */
     color: #333; /* Color del texto */
+}
+
+.image-box:hover {
+    color: #fad02c; /* Cambia el color del texto al pasar el mouse */
+    border-radius: 5px; /* Cambia el borde redondeado (esto no tendrá efecto visible si no hay un borde definido) */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Agrega un efecto de sombra para destacar el hover */
+    transition: all 0.3s ease; /* Suaviza la transición de los cambios */
+    background-color: rgba(250, 210, 44, 0.1);
 }
