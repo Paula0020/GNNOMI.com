@@ -78,4 +78,5 @@ h1{
     align-self: flex-end; /* Alinea el ícono del carrito al final del contenedor */
     text-align: right; /* Alinea el contenido a la derecha */
     padding: 15px;
+    position: absolute;
 }
