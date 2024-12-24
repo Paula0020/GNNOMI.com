@@ -73,11 +73,9 @@ h1{
     background-color: rgba(68, 88, 77, 0.1);
 }
 .cart {
-    color:black;
-    padding: 10px;
-    width: 8%; /* Ancho de la imagen del carrito */
-    position: absolute; /* Posiciona la imagen del carrito de forma absoluta */
-    right: 15px; /* Mueve la imagen del carrito a la derecha */
-    bottom: 10px; /* Ajusta la posición vertical si es necesario */
+    width: 6%; /* Ancho de la imagen del carrito */
+    margin-left: auto; /* Empuja el ícono del carrito hacia la derecha */
+    align-self: flex-end; /* Alinea el ícono del carrito al final del contenedor */
     text-align: right; /* Alinea el contenido a la derecha */
+    padding: 15px;
 }
