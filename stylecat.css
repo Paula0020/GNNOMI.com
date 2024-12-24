@@ -69,5 +69,13 @@ h1{
     border-radius: 5px; /* Cambia el borde redondeado (esto no tendrá efecto visible si no hay un borde definido) */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Agrega un efecto de sombra para destacar el hover */
     transition: all 0.3s ease; /* Suaviza la transición de los cambios */
-    background-color: rgba(250, 210, 44, 0.1);
+    background-color: rgba(68, 88, 77, 0.1);
+}
+.cart {
+    padding: 15px;
+    width: 10%; /* Ancho de la imagen del carrito */
+    position: relative; /* Posiciona la imagen del carrito de forma absoluta */
+    left: 220px; /* Mueve la imagen del carrito a la derecha */
+    bottom: 13px; /* Ajusta la posición vertical si es necesario */
+    text-align: right; /* Alinea el contenido a la derecha */
 }
