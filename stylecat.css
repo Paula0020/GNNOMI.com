@@ -10,6 +10,23 @@ header {
     padding: 10px 0; /* Espaciado interno */
 }
 
+nav {
+    background-color:  #396a68; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    height: 30px; /* Altura del nav */
+    display: flex; /* Para alinear elementos */
+    justify-content: flex-end;
+}
+
+
+nav a{
+    font-size: 15px; /* Tamaño de la fuente */
+    font-family: "Poppins",sans-serif;
+    text-align: right; /* Alinear el texto al centro */
+    text-decoration: none; /* Sin subrayado */
+    color: whitesmoke;
+}
 .headerlogo {
     max-width: 25%; /* Asegura que la imagen no exceda el ancho del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
@@ -20,7 +37,7 @@ header {
 h1{
     font-size: 50px; /* Tamaño de la fuente */
     font-family: "Poppins",sans-serif;
-    color: Balck; /* Color del texto */
+    color: Black; /* Color del texto */
     text-align: left; /* Alinear el texto al centro */
     font-weight: bold; /* Hacer el texto en negrita */
     margin: 20px 50px; /* Espaciado superior e inferior */
@@ -79,4 +96,5 @@ h1{
     text-align: right; /* Alinea el contenido a la derecha */
     padding: 15px;
     position: absolute;
+    background-color: cornsilk;
 }
