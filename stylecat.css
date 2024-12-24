@@ -45,7 +45,8 @@ h1{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra (opcional) */
     display: flex; /* Usar flexbox para organizar el contenido */
     flex-direction: column; /* Organiza los elementos en columna */
-    justify-content: space-between; /* Usar flexbox para organizar el contenido */; /* Alinea los elementos al inicio */
+    justify-content: space-between; /* Distribuye el espacio entre la imagen y el texto */
+    position: relative; /* Permite posicionar elementos hijos */
 }
 
 .image {
@@ -72,10 +73,11 @@ h1{
     background-color: rgba(68, 88, 77, 0.1);
 }
 .cart {
-    padding: 15px;
-    width: 10%; /* Ancho de la imagen del carrito */
-    position: relative; /* Posiciona la imagen del carrito de forma absoluta */
-    left: 220px; /* Mueve la imagen del carrito a la derecha */
-    bottom: 13px; /* Ajusta la posición vertical si es necesario */
+    color:black;
+    padding: 10px;
+    width: 8%; /* Ancho de la imagen del carrito */
+    position: absolute; /* Posiciona la imagen del carrito de forma absoluta */
+    right: 15px; /* Mueve la imagen del carrito a la derecha */
+    bottom: 10px; /* Ajusta la posición vertical si es necesario */
     text-align: right; /* Alinea el contenido a la derecha */
 }
