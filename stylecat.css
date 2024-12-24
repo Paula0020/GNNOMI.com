@@ -83,8 +83,7 @@ h1{
 }
 
 .image-box:hover {
-    color: #fad02c; /* Cambia el color del texto al pasar el mouse */
-    border-radius: 5px; /* Cambia el borde redondeado (esto no tendrá efecto visible si no hay un borde definido) */
+    border-radius: 2px; /* Cambia el borde redondeado (esto no tendrá efecto visible si no hay un borde definido) */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Agrega un efecto de sombra para destacar el hover */
     transition: all 0.3s ease; /* Suaviza la transición de los cambios */
     background-color: rgba(68, 88, 77, 0.1);
@@ -97,4 +96,5 @@ h1{
     padding: 15px;
     position: absolute;
     background-color: cornsilk;
+    border-radius: 10px; /* Bordes redondeados (opcional) */
 }
